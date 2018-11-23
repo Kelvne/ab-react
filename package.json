@@ -1,0 +1,37 @@
+{
+  "name": "ab-react",
+  "version": "1.0.0",
+  "description": "A/B testing component for React",
+  "main": "lib/index.js",
+  "repository": "git@github.com:Kelvne/ab-react.git",
+  "author": "Kelvne Machado Pechim <kelvne.pechim@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/react": "^16.7.7",
+    "@types/universal-cookie": "^2.2.0",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "^23.6.0",
+    "react": "^16.6.3",
+    "react-cookie": "^3.0.4",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6",
+    "universal-cookie": "^3.0.4"
+  },
+  "scripts": {
+    "clean": "rm -rf ./lib",
+    "build": "npm run clean && tsc",
+    "prepare": "npm run build",
+    "test": "jest --config jestconfig.json"
+  },
+  "dependencies": {
+    "@types/enzyme": "^3.1.15",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/react-dom": "^16.0.10",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "react-dom": "^16.6.3"
+  }
+}

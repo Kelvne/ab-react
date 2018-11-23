@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting Component should render 1`] = `""`;
+
+exports[`ABTesting Component show always render same version if cookie is set 1`] = `
+<div
+  key=".1"
+>
+  This should be rendered.
+</div>
+`;
+
+exports[`ABTesting Component show render a child if one child 1`] = `
+<div
+  key=".0"
+>
+  Hello
+</div>
+`;
