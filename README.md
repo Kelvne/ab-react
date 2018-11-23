@@ -47,13 +47,15 @@ or
     }
   }
 
-  <ABReact cookieName='ab-testing'>
-    <View>
-      Version one
-    </View>
+  const TestingRoute = () => (
+    <ABReact cookieName='ab-testing'>
+      <View>
+        Version one
+      </View>
 
-    <View>
-      Version two
-    </View>
-  </ABReact>
+      <View>
+        Version two
+      </View>
+    </ABReact>
+  )
 ```
