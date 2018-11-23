@@ -47,7 +47,7 @@ or
     }
   }
 
-  <ABReact>
+  <ABReact cookieName='ab-testing'>
     <View>
       Version one
     </View>
