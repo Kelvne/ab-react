@@ -1,6 +1,6 @@
 {
   "name": "ab-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A/B testing component for React",
   "main": "lib/index.js",
   "repository": "git@github.com:Kelvne/ab-react.git",
