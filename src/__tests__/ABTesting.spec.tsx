@@ -30,7 +30,7 @@ describe('ABTesting Component', () => {
 
     const cookieName = 'ab-testing-cookie';
 
-    const component = shallow(
+    shallow(
       <ABTesting cookies={cookies} cookieName={cookieName}>
         <div>Hi!</div>
       </ABTesting>,
