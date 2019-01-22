@@ -51,4 +51,4 @@ export class ABTesting extends React.Component<IABTestingProps, IABTestingState>
   }
 }
 
-export default withCookies(ABTesting);
+export default withCookies(ABTesting) as React.ComponentType<IABTestingProps>;
